@@ -56,14 +56,9 @@ nav ul li a:hover::after {
 
 }
 
-.middle{
-    background-color: magenta;
-    height: 1000px;
-}
-
 .leftpane,
 .rightpane{
-  width: 50%;
+  width: 30%;
   float: left;
   height: 100px;
 }
@@ -78,7 +73,16 @@ nav ul li a:hover::after {
 
 
 
+.rightpane:hover {
+    width: 40%;
+    transition: 0.5s;
+}
 
+.rightpane:hover ~ .leftpane{
+    width: 10%;
+    transition: 0.5s;
+    background-color: #ff004f;
+}
 
 
 .leftpane:hover ~ .rightpane{
@@ -87,19 +91,14 @@ nav ul li a:hover::after {
 }
 
 .leftpane:hover {
-    width: 90%;
+    width: 40%;
     transition: 0.5s;
 }
 
-.rightpane:hover ~ .leftpane{
-    width: 10%;
-    transition: 0.5s;
-}
 
-.rightpane:hover {
-    width: 90%;
-    transition: 0.5s;
-}
-
+/*
+https://tutorials.nmdprojects.net/change_style_on_hover/ 
+use this to understnd how to make a function to change the scroll of the 2 webpage thigns 
+*/
 
 
