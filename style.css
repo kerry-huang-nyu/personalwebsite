@@ -56,44 +56,22 @@ nav ul li a:hover::after {
 
 }
 
-.leftpane,
-.rightpane{
+#leftpane,
+#rightpane{
   width: 30%;
   float: left;
   height: 100px;
 }
 
-.leftpane{
+#leftpane{
     background-color: aqua;
 }
 
-.rightpane{
+#rightpane{
     background-color: beige;
 }
 
 
-
-.rightpane:hover {
-    width: 40%;
-    transition: 0.5s;
-}
-
-.rightpane:hover ~ .leftpane{
-    width: 10%;
-    transition: 0.5s;
-    background-color: #ff004f;
-}
-
-
-.leftpane:hover ~ .rightpane{
-    width: 10%;
-    transition: 0.5s;
-}
-
-.leftpane:hover {
-    width: 40%;
-    transition: 0.5s;
-}
 
 
 /*
