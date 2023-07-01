@@ -21,8 +21,8 @@ document.getElementById("rightpane").onmouseout = function() {
 
 document.getElementById("leftpane").onmouseout = function() {
 	this.style.width = '50%' ;
-    this.style.transitionDuration = '0.5s' ;
     document.getElementById("rightpane").style.width = '50%';
+    this.style.transitionDuration = '0.5s' ;
 }
 
 

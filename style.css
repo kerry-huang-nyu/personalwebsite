@@ -58,9 +58,11 @@ nav ul li a:hover::after {
 
 #leftpane,
 #rightpane{
-  width: 30%;
+  width: 50%;
   float: left;
-  height: 100px;
+  height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #leftpane{
@@ -71,6 +73,58 @@ nav ul li a:hover::after {
     background-color: beige;
 }
 
+
+.skill{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.skill-coding{
+    background-color: #97ea44;
+
+}
+.skill-tools{
+    background-color: #00ccff;
+}
+.skill-language{
+    background-color: #ffff66;
+}
+
+
+h2{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h2:before,
+h2:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+.project{
+    
+}
 
 
 
